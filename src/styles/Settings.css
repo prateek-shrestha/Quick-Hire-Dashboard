@@ -1,0 +1,145 @@
+.settings-container {
+    padding: 2rem;
+    width: 74vw!important;
+    /* max-width: calc(100vw-400px); */
+    min-height: 100vh;
+    /* margin: 0 auto; */
+  }
+  h1, p{
+    color: #2c2d2e;
+  }
+  
+  .settings-sidebar {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    display: flex !important;
+    gap: 2rem;
+    flex-direction: row !important;
+  }
+  
+  .sidebar-header, h5{
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 18px;
+  }
+  
+  .sidebar-item {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    color: #2c2d2e;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .sidebar-item.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    font-weight: 600;
+  }
+
+  .sidebar-item:hover {
+    background: transparent;
+    color: #007bff;
+  }
+  
+  .profile-info-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .profile-info{
+    width: 100%;
+    height: 2rem;
+    background: transparent;
+    border-bottom: 2px solid #b8b8b8;
+    border: none;
+    /* border-radius: 8px; */
+    padding: 1rem;
+    color: #151515;
+    font-size: 17px;
+    /* text-decoration: none; */
+    outline: none;
+    /* appearance: textfield;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield; */
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  
+  .section-header {
+    font-weight: 600;
+    color: #212529;
+  }
+  
+  .section-subheader {
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  
+  .name-table {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .name-table th {
+    font-weight: 600;
+    color: #495057;
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .name-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .info-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-group label {
+    display: block;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-value {
+    color: #212529;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .section-divider {
+    margin: 2rem 0;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .save-button {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .settings-container {
+      padding: 1rem;
+    }
+    
+    .name-table {
+      width: 100%;
+    }
+    
+    .profile-info-section {
+      padding: 1rem;
+    }
+  }
